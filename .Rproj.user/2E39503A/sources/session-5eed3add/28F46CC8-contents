@@ -1,0 +1,23 @@
+#setup website - blogdown::hugo_build(local=TRUE)
+
+#preview site
+blogdown::serve_site()
+
+#link public folder to github repo ----
+# in terminal - cd Home/Documents/Academia/website/config
+
+## Init git in the /website/public/ folder
+git init
+
+## Add and commit the changes
+git add .
+git commit -m "first version of the website"
+
+## Set origin
+git remote add origin https://github.com/samtaylor475/samtaylor475.github.io.git
+
+## Rename local branch
+git branch -M main
+
+## And push your updates online
+git push -u origin main
