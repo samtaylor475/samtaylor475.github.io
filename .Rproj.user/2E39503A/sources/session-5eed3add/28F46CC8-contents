@@ -3,8 +3,8 @@
 #preview site
 blogdown::serve_site()
 
-#link public folder to github repo ----
-# in terminal - cd Home/Documents/Academia/website/config
+#link public folder to github repo (copy to terminal) ----
+cd Home/Documents/Academia/website/config
 
 ## Init git in the /website/public/ folder
 git init
